@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Checker Tool</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="mainForm">
+    <h1>Grade Checker Tool</h1>
+    <form onsubmit="gradeCheck(event)" id="form">
+        Enter Numbers (0-100):
+        <input type="number" id="Inputgrade" required step="1">
+        <br>
+        <button id="btn">Check your result</button>
+        <h1 id="resultWindow">
+
+        </h1>
+    </form>
+</div>  
+    <script src="./checker.mjs"></script>  
+</body>
+</html>
